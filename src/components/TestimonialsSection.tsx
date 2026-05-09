@@ -16,6 +16,29 @@ import cliente3 from "@/assets/clientes/cliente-3.jpeg";
 import cliente4 from "@/assets/clientes/cliente-4.jpeg";
 import cliente5 from "@/assets/clientes/cliente-5.jpeg";
 import cliente6 from "@/assets/clientes/cliente-6.jpeg";
+import cliente7 from "@/assets/clientes/cliente-7.jpeg";
+import cliente8 from "@/assets/clientes/cliente-8.jpeg";
+import cliente9 from "@/assets/clientes/cliente-9.jpeg";
+import cliente10 from "@/assets/clientes/cliente-10.jpeg";
+import cliente11 from "@/assets/clientes/cliente-11.jpeg";
+import cliente12 from "@/assets/clientes/cliente-12.jpeg";
+import cliente13 from "@/assets/clientes/cliente-13.jpeg";
+import cliente14 from "@/assets/clientes/cliente-14.jpeg";
+import cliente15 from "@/assets/clientes/cliente-15.jpeg";
+import cliente16 from "@/assets/clientes/cliente-16.jpeg";
+import cliente17 from "@/assets/clientes/cliente-17.jpeg";
+import cliente18 from "@/assets/clientes/cliente-18.jpeg";
+import cliente19 from "@/assets/clientes/cliente-19.jpeg";
+import cliente20 from "@/assets/clientes/cliente-20.jpeg";
+import cliente21 from "@/assets/clientes/cliente-21.jpeg";
+import cliente22 from "@/assets/clientes/cliente-22.jpeg";
+import cliente23 from "@/assets/clientes/cliente-23.jpeg";
+import cliente24 from "@/assets/clientes/cliente-24.jpeg";
+import cliente25 from "@/assets/clientes/cliente-25.jpeg";
+import cliente26 from "@/assets/clientes/cliente-26.jpeg";
+import cliente27 from "@/assets/clientes/cliente-27.jpeg";
+import cliente28 from "@/assets/clientes/cliente-28.jpeg";
+import cliente29 from "@/assets/clientes/cliente-29.jpeg";
 
 const clientImages = [
   cliente1,
@@ -24,6 +47,29 @@ const clientImages = [
   cliente4,
   cliente5,
   cliente6,
+  cliente7,
+  cliente8,
+  cliente9,
+  cliente10,
+  cliente11,
+  cliente12,
+  cliente13,
+  cliente14,
+  cliente15,
+  cliente16,
+  cliente17,
+  cliente18,
+  cliente19,
+  cliente20,
+  cliente21,
+  cliente22,
+  cliente23,
+  cliente24,
+  cliente25,
+  cliente26,
+  cliente27,
+  cliente28,
+  cliente29,
 ];
 
 const TestimonialsSection = () => {
