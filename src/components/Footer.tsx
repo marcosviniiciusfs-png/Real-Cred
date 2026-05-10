@@ -1,4 +1,4 @@
-import { Phone, MapPin, Clock, Instagram } from "lucide-react";
+import { MapPin, Clock, Instagram } from "lucide-react";
 import logoMv from "@/assets/logo-mv.png";
 import facebookIcon from "@/assets/facebook.png";
 
@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer id="contato" className="bg-[hsl(var(--header-footer))] text-white">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           {/* Logo e Descrição */}
           <div>
             <div className="flex flex-col items-center md:items-start gap-2 mb-4">
@@ -14,50 +14,36 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-4 mt-2">
               <a
-                href="https://www.facebook.com/profile.php?id=61579785880482#"
+                href="https://www.facebook.com/Jeniffercassemiro03?mibextid=wwXIfr%20P%C3%A1gina%20Facebook&rdid=1N8RVsaIDQk3msff&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CuzD3ow7o%2F%3Fmibextid%3DwwXIfr%2BP%25C3%25A1gina%2BFacebook#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-white/80 transition-colors"
-                aria-label="Facebook da Viva Capital">
-                
+                aria-label="Facebook da MV Soluções Financeiras">
+
                 <img src={facebookIcon} alt="Facebook" className="w-8 h-8" />
               </a>
               <a
-                href="https://www.instagram.com/vivacapitalconsorcios?igsh=NWx0NHR3dHZsZG12"
+                href="https://www.instagram.com/mv_solucoesfin?igsh=MW10azR4MzdlYXF2bw%3D%3D&fbclid=IwY2xjawRtr_ZleHRuA2FlbQIxMABicmlkETFzejQ1MnNqRmFlYVFjOXAzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHp8u_H-BtlKdcKr13-fyxwJ-_MOELs4tT3Bm91TMYmMAEecDZUAGqAGl8W5p_aem_fA5FcVNA5TO0chHqxJ0Vpg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-white/80 transition-colors"
-                aria-label="Instagram da Viva Capital">
-                
+                aria-label="Instagram da MV Soluções Financeiras">
+
                 <Instagram className="w-8 h-8" />
               </a>
             </div>
           </div>
 
-          {/* Contato */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">Fale Conosco</h3>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
-                <div>
-                  <p className="font-semibold">WhatsApp</p>
-                  <p className="text-white/90">(85) 98972-6961</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Localização e Horário */}
           <div>
-            <h3 className="text-xl font-bold mb-4">Localização</h3>
+            <h3 className="text-xl font-bold mb-4">Endereço</h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-white/90">
-                    Rua Sátiro Dias, 387 – Montese<br />
-                    Fortaleza-CE
+                    Rua Bela Vista, 452 – Centro<br />
+                    São Bernardo do Campo - SP
                   </p>
                 </div>
               </div>
