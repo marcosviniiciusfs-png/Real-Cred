@@ -17,6 +17,10 @@ dist-ssr
 .env.*
 !.env.example
 
+# Raw material folders (source assets imported into src/assets/)
+/Clientes contemplados/
+/Logo/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
