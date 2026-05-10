@@ -7,7 +7,7 @@ import {
   CarouselItem,
   type CarouselApi,
 } from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
+import AutoScroll from "embla-carousel-auto-scroll";
 
 // Import client images
 import cliente1 from "@/assets/clientes/cliente-1.jpeg";
@@ -77,10 +77,13 @@ const TestimonialsSection = () => {
   const [current, setCurrent] = useState(0);
   const [count, setCount] = useState(0);
 
-  const autoplayPlugin = useRef(
-    Autoplay({
-      delay: 3000,
-      stopOnInteraction: true,
+  const autoScrollPlugin = useRef(
+    AutoScroll({
+      speed: 0.8,
+      direction: "forward",
+      startDelay: 0,
+      playOnInit: true,
+      stopOnInteraction: false,
       stopOnMouseEnter: true,
       stopOnFocusIn: true,
     })
@@ -143,7 +146,7 @@ const TestimonialsSection = () => {
               align: "start",
               loop: true,
             }}
-            plugins={[autoplayPlugin.current]}
+            plugins={[autoScrollPlugin.current]}
             className="w-full"
           >
             <CarouselContent className="-ml-2 md:-ml-4">
