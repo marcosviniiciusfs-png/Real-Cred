@@ -98,7 +98,7 @@ const Simulator = () => {
     if (isSubmitting) return;
     setIsSubmitting(true);
 
-    const webhookUrl = "https://hook.us1.make.com/m60b3l3wcknirc4fc7ezy3553yso5jih";
+    const webhookUrl = "https://uxttihjsxfowursjyult.supabase.co/functions/v1/form-webhook/c068edf5064bea4706e77b20f26901b82ed803d507765ba2932c706cf639cf31";
     
     const today = new Date().toISOString().split('T')[0];
     const downPaymentValue = formData.hasDownPayment === "Sim" ? formData.downPaymentAmount : "Não tem";
