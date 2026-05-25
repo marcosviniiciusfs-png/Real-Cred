@@ -1,5 +1,5 @@
-import { MapPin, Clock, Instagram } from "lucide-react";
-import logoMv from "@/assets/logo-mv.png";
+import { MapPin, Clock, Instagram, Phone } from "lucide-react";
+import logoRealCred from "@/assets/logo-real-cred.png";
 import facebookIcon from "@/assets/facebook.png";
 
 const Footer = () => {
@@ -10,24 +10,24 @@ const Footer = () => {
           {/* Logo e Descrição */}
           <div>
             <div className="flex flex-col items-center md:items-start gap-2 mb-4">
-              <img src={logoMv} alt="MV Soluções Financeiras" className="h-20 w-20 rounded-full object-cover" />
+              <img src={logoRealCred} alt="Real Cred Investimentos e Negócios" className="h-20 w-20 shrink-0 aspect-square rounded-full object-cover block" />
             </div>
             <div className="flex items-center gap-4 mt-2">
               <a
-                href="https://www.facebook.com/Jeniffercassemiro03?mibextid=wwXIfr%20P%C3%A1gina%20Facebook&rdid=1N8RVsaIDQk3msff&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CuzD3ow7o%2F%3Fmibextid%3DwwXIfr%2BP%25C3%25A1gina%2BFacebook#"
+                href="https://www.facebook.com/profile.php?id=61589490745117#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-white/80 transition-colors"
-                aria-label="Facebook da MV Soluções Financeiras">
+                aria-label="Facebook da Real Cred">
 
                 <img src={facebookIcon} alt="Facebook" className="w-8 h-8" />
               </a>
               <a
-                href="https://www.instagram.com/mv_solucoesfin?igsh=MW10azR4MzdlYXF2bw%3D%3D&fbclid=IwY2xjawRtr_ZleHRuA2FlbQIxMABicmlkETFzejQ1MnNqRmFlYVFjOXAzc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHp8u_H-BtlKdcKr13-fyxwJ-_MOELs4tT3Bm91TMYmMAEecDZUAGqAGl8W5p_aem_fA5FcVNA5TO0chHqxJ0Vpg"
+                href="https://www.instagram.com/real.credpb?fbclid=IwY2xjawSA_jZleHRuA2FlbQIxMABicmlkETFsMzMwbkRHRkpWeFZ3YkRVc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeP2oXy0TrkyjHbKjOFyeff7PnEUtXmnpJkvUUPEZHJ30DmfQ72XNcwrL55Q8_aem_k_ouLZzEuTw6IEyEm7PW8A"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-white/80 transition-colors"
-                aria-label="Instagram da MV Soluções Financeiras">
+                aria-label="Instagram da Real Cred">
 
                 <Instagram className="w-8 h-8" />
               </a>
@@ -42,9 +42,19 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-white/90">
-                    Rua Bela Vista, 452 – Centro<br />
-                    São Bernardo do Campo - SP
+                    Avenida Rui Barbosa, 412 – Torre
                   </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
+                <div>
+                  <a
+                    href="tel:+558391287962"
+                    className="text-white/90 hover:text-white transition-colors"
+                  >
+                    +55 83 9128-7962
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-3">
